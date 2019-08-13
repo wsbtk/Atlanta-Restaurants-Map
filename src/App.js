@@ -42,6 +42,7 @@ class App extends Component {
       })
       .catch(error => {
         console.log("ERROR!! " + error)
+        alert("Sorry! The Restaurants and the Map failed to load. Please check your internet connection");
       })
   }
 
